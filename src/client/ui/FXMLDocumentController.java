@@ -96,7 +96,6 @@ public class FXMLDocumentController implements Initializable {
        
 		listenFromServer = new Receiver(connectManager.clientSocket, this);
 		listenFromServer.start();
-	
 
        
        

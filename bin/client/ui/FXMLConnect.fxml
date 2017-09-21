@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" fx:id="connectWindow" prefHeight="89.0" prefWidth="363.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.FXMLConnectController">
+<AnchorPane id="AnchorPane" fx:id="connectWindow" prefHeight="89.0" prefWidth="429.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.FXMLConnectController">
    <children>
-      <TextField fx:id="serverName" layoutX="62.0" layoutY="27.0" promptText="Server" />
-      <Button fx:id="connectButton" layoutX="252.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Connect" />
+      <TextField fx:id="serverName" layoutX="92.0" layoutY="27.0" promptText="Server" />
+      <Button fx:id="connectButton" layoutX="293.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Connect" />
+      <Label layoutX="11.0" layoutY="32.0" prefHeight="16.0" prefWidth="72.0" text="Server IP :" />
    </children>
 </AnchorPane>

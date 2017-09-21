@@ -66,6 +66,7 @@ public class ConnectManager extends Application {
 			stage.getScene().setRoot(root);
 		}
 		stage.sizeToScene();
+		stage.setTitle("Remote Commander");
 		stage.setResizable(false);
 		return root;
 	}
